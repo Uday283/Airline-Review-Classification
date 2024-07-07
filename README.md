@@ -4,8 +4,6 @@ Welcome to the CodePlay EdTech Platform Repository!
 
 This comprehensive repository houses the backbone of the revolutionary CodePlay EdTech platform – a dynamic and feature-rich MERN stack application that is set to reshape the landscape of online education. With a seamless blend of technology and education, CodePlay empowers both instructors and students, fostering a vibrant learning community.
 
-* Project Link :- https://codeplay-edtech-project.vercel.app/
-
 ## Features
 
 **1. MERN Stack Architecture** : The foundation of CodePlay is built upon the robust MERN (MongoDB, Express.js, React, Node.js) stack. This choice of technology ensures scalability, performance, and maintainability, allowing for a smooth and immersive user experience.
@@ -35,8 +33,8 @@ The CodePlay is built using the following technologies:
 
 ## Acknowledgements
 
-The CodePlay was created by Pranjal Mishra. Special thanks to Love Babbar Bhaiya and CodeHelp.
+The CodePlay was created by UDAY KUMAR,BOLLI VAMSHI KRISHNA, SOMA UDAY KIRAN, SRAVANTHI. Special thanks to Love Babbar Bhaiya and CodeHelp.
 
 ## Contact
 
-If you have any questions or suggestions regarding this project, please feel free to contact Email - PranjalMishraContact@gmail.com.    
+If you have any questions or suggestions regarding this project, please feel free to contact Email - somaudaykiran89@gmail.com.    
