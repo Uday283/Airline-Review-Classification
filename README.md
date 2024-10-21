@@ -1,40 +1,70 @@
-# CodePlay Edtech MERN Application
+<div align="center">
+  <div id="user-content-toc">
+    <ul>
+      <summary><h1 style="display: inline-block;">🥔 Potato Disease Classification</h1></summary>
+    </ul>
+  </div>
+  
+  <p>Deep Learning Project Using Tensorflow, GCP & React </p>
+    <a href="https://youtu.be/OWAefZ1vE8I" target="_blank">Demo</a>
+    ·
+    <a href="https://www.kaggle.com/datasets/arjuntejaswi/plant-village" target="_blank">Data</a>
+    ·
+    <a href="https://github.com/Hamagistral/Potato-Disease-Classification/issues" target="_blank">Request Feature</a>
+</div>
 
-Welcome to the CodePlay EdTech Platform Repository!
+## 🎯 Goal 
 
-This comprehensive repository houses the backbone of the revolutionary CodePlay EdTech platform – a dynamic and feature-rich MERN stack application that is set to reshape the landscape of online education. With a seamless blend of technology and education, CodePlay empowers both instructors and students, fostering a vibrant learning community.
+The goal of this project is to help farmers diagnose their crops. This project uses image classification using CNN architecture with Tensorflow to detect potato plant diseases, deployed to GCP and used in a web frontend app made with React.
 
-## Features
+## 💾 Dataset Used  
 
-**1. MERN Stack Architecture** : The foundation of CodePlay is built upon the robust MERN (MongoDB, Express.js, React, Node.js) stack. This choice of technology ensures scalability, performance, and maintainability, allowing for a smooth and immersive user experience.
+This data contains three datasets that contains photos of potato leaves. One dataset contains `Healthy` potato leaves, `Early Blight` and `Late Blight`.
 
-**2. Instructor Empowerment** : Instructors are the heart of CodePlay. With this platform, educators can effortlessly craft and publish their courses, utilizing a user-friendly interface that allows them to upload course materials and videos. CodePlay's intuitive content creation tools give instructors the freedom to focus on delivering high-quality education.
+More info about dataset can be found here :
 
-**3. Interactive Learning** : Students enrolled on CodePlay gain access to a diverse range of courses. From Webdev to Datascience, CodePlay caters to an array of subjects. The platform offers interactive video lectures, creating an immersive and well-rounded learning experience.
+- Kaggle - https://www.kaggle.com/datasets/arjuntejaswi/plant-village
 
-**4. Seamless Course Purchase** : Students can browse through the extensive catalog of courses, read descriptions, view course previews, and make secure payments. The platform's seamless payment gateway ensures a hassle-free purchasing process, enabling students to jumpstart their learning journey with ease.
+## 🛠️ Technologies Used
 
-**5. Personalized Dashboards** : Both instructors and students have personalized dashboards that provide a snapshot of their engagement on the platform. Instructors can track the performance of their courses, monitor student enrollment, and gain insights into their earnings through comprehensible graphs and statistics.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-**6. Financial Insights** : CodePlay empowers instructors with a transparent financial overview. The platform displays real-time data on course sales, student enrollment, and income earned. This invaluable information assists instructors in refining their teaching strategies and creating content that resonates with their audience.
+## Installation :
 
-## Technologies Used
+1. Clone the repository:
 
-The CodePlay is built using the following technologies:
+`git clone https://github.com/Uday283/Potato_disease_classification.git`
 
-#### React JS, Tailwind
-    - Front-End Development.
-#### Node JS, Express JS 
-    - Back-End Development.
-#### Razorpay
-    - Payment Gateway.
-#### MongoDB
-    - Database.
+## Training the Model Usage :
 
-## Acknowledgements
+1. Go to the **training** directory:
 
-The CodePlay was created by UDAY KUMAR,BOLLI VAMSHI KRISHNA, SOMA UDAY KIRAN, SRAVANTHI. Special thanks to Love Babbar Bhaiya and CodeHelp.
+`cd training`
 
-## Contact
+3. Install the required packages:
 
-If you have any questions or suggestions regarding this project, please feel free to contact Email - somaudaykiran89@gmail.com.    
+`pip install -r requirements.txt`
+
+4. Run the notebook
+
+`jupyter notebook`
+
+## Front End Usage :
+
+1. Go to the **frontend** directory:
+
+`cd frontend`
+
+2. Install dependencies:
+
+`npm install`
+
+3. Run the app:
+
+`npm run start`
